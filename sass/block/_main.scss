@@ -1,0 +1,1877 @@
+#main {
+    background-color: white;
+    width: 1920px;
+
+}
+
+.main__title {
+    position: absolute;
+    width: 1236px;
+    height: 174px;
+    left: 342px;
+    top: 720px;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        font-weight: 700;
+        font-size: 120px;
+        line-height: 141px;
+        text-align: center;
+        color: #01384D;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #01384D;
+    }
+}
+
+.main__text {
+    position: absolute;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #01384D;
+    left: 720px;
+    top: 995px;
+}
+
+.little__list {
+    position: absolute;
+    width: 1212px;
+    height: 19px;
+    left: 320px;
+    top: 1131px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.little__item1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #01384D;
+}
+
+
+
+.little__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #01384D;
+    opacity: 0.6;
+}
+
+.line {
+    position: absolute;
+    width: 1920px;
+    height: 0;
+    border: 1px solid #01384D;
+    top: 1167px;
+    opacity: 0.3;
+}
+
+.line-inner {
+    position: absolute;
+    width: 66px;
+    height: 0px;
+    left: 320px;
+    top: 1164px;
+    border: 4px solid #01384D;
+}
+
+.main__card {
+    position: relative;
+    background-image: url(../../img-main/matras.png);
+    background-repeat: no-repeat;
+    background-position: top 122px left 40px;
+    width: 1280px;
+    height: 456px;
+    background-color: #F6FBFF;
+    margin-top: 590px;
+    margin-left: 320px;
+
+    .card__word {
+        display: flex;
+        padding: 10px 10px;
+        gap: 10px;
+        position: absolute;
+        width: 170px;
+        height: 36px;
+        left: 30px;
+        top: 20px;
+        background: #FF6B6B;
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .card__btn {
+        width: 200px;
+        height: 46px;
+        border-radius: 5px;
+        border: 2px solid #01384D;
+        margin-left: 604px;
+        margin-top: 393px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+}
+
+.card__title {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 604px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #01384D;
+}
+
+.card__cost {
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #01384D;
+    margin-left: 604px;
+    margin-top: 320px;
+
+    span {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #01384D;
+
+    }
+}
+
+.card__narx {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #01384D;
+    opacity: 0.6;
+    margin-top: 294px;
+    margin-left: 604px;
+}
+
+.card__text {
+    position: absolute;
+    left: 47.19%;
+    right: 3.12%;
+    top: 41.89%;
+    bottom: 41.01%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #01384D;
+    opacity: 0.6;
+}
+
+.card__list {
+
+
+
+    .card__item {
+        position: absolute;
+        left: 47.19%;
+        right: 47.03%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 74px;
+        height: 62px;
+
+        .item__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 50px;
+
+        }
+
+        .item__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item2 {
+        position: absolute;
+        left: 58.83%;
+        right: 37.11%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 52px;
+        height: 61px;
+
+        .item2__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        .item2__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item3 {
+        position: absolute;
+        left: 69.14%;
+        right: 17.42%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 172px;
+        height: 61px;
+
+        .item3__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+
+
+        .item3__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item4 {
+        position: absolute;
+        left: 88.83%;
+        right: 5.31%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 75px;
+        height: 61px;
+
+        .item4__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 13px;
+            padding-left: 20px;
+        }
+
+        .item4__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+}
+
+.main__card2 {
+    position: relative;
+    background-image: url(../../img-main/matras.png), url(../../img-main/search.png), url(../../img-main/search-circle.png);
+    background-repeat: no-repeat;
+    background-position: top 122px left 40px, left 472.5px top 38.5px, top 20px left 454px;
+    width: 1280px;
+    height: 456px;
+    background-color: #F6FBFF;
+    margin-top: 20px;
+    margin-left: 320px;
+
+    .card__word {
+        display: flex;
+        padding: 10px 10px;
+        gap: 10px;
+        position: absolute;
+        width: 170px;
+        height: 36px;
+        left: 30px;
+        top: 20px;
+        background: #FF6B6B;
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .card__btn {
+        width: 200px;
+        height: 46px;
+        border-radius: 5px;
+        border: 2px solid #01384D;
+        margin-left: 604px;
+        margin-top: 393px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+}
+
+.card__title {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 604px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #01384D;
+}
+
+.card__cost {
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #01384D;
+    margin-left: 604px;
+    margin-top: 320px;
+
+    span {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #01384D;
+
+    }
+}
+
+.card__narx {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #01384D;
+    opacity: 0.6;
+    margin-top: 294px;
+    margin-left: 604px;
+}
+
+.card__text {
+    position: absolute;
+    left: 47.19%;
+    right: 3.12%;
+    top: 41.89%;
+    bottom: 41.01%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #01384D;
+    opacity: 0.6;
+}
+
+.card__list {
+
+
+
+    .card__item {
+        position: absolute;
+        left: 47.19%;
+        right: 47.03%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 74px;
+        height: 62px;
+
+        .item__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 50px;
+
+        }
+
+        .item__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item2 {
+        position: absolute;
+        left: 58.83%;
+        right: 37.11%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 52px;
+        height: 61px;
+
+        .item2__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        .item2__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item3 {
+        position: absolute;
+        left: 69.14%;
+        right: 17.42%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 172px;
+        height: 61px;
+
+        .item3__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+
+
+        .item3__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item4 {
+        position: absolute;
+        left: 88.83%;
+        right: 5.31%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 75px;
+        height: 61px;
+
+        .item4__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 13px;
+            padding-left: 20px;
+        }
+
+        .item4__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+}
+
+.main__card3 {
+    position: relative;
+    background-image: url(../../img-main/matras.png);
+    background-repeat: no-repeat;
+    background-position: top 122px left 40px;
+    width: 1280px;
+    height: 456px;
+    background-color: #F6FBFF;
+    margin-top: 20px;
+    margin-left: 320px;
+
+    .card__word {
+        display: flex;
+        padding: 10px 10px;
+        gap: 10px;
+        position: absolute;
+        width: 170px;
+        height: 36px;
+        left: 30px;
+        top: 20px;
+        background: #FF6B6B;
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .card__btn {
+        width: 200px;
+        height: 46px;
+        border-radius: 5px;
+        border: 2px solid #01384D;
+        margin-left: 604px;
+        margin-top: 393px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+}
+
+.card__title {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 604px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #01384D;
+}
+
+.card__cost {
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #01384D;
+    margin-left: 604px;
+    margin-top: 320px;
+
+    span {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #01384D;
+
+    }
+}
+
+.card__narx {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #01384D;
+    opacity: 0.6;
+    margin-top: 294px;
+    margin-left: 604px;
+}
+
+.card__text {
+    position: absolute;
+    left: 47.19%;
+    right: 3.12%;
+    top: 41.89%;
+    bottom: 41.01%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #01384D;
+    opacity: 0.6;
+}
+
+.card__list {
+
+
+
+    .card__item {
+        position: absolute;
+        left: 47.19%;
+        right: 47.03%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 74px;
+        height: 62px;
+
+        .item__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 50px;
+
+        }
+
+        .item__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item2 {
+        position: absolute;
+        left: 58.83%;
+        right: 37.11%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 52px;
+        height: 61px;
+
+        .item2__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        .item2__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item3 {
+        position: absolute;
+        left: 69.14%;
+        right: 17.42%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 172px;
+        height: 61px;
+
+        .item3__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+
+
+        .item3__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item4 {
+        position: absolute;
+        left: 88.83%;
+        right: 5.31%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 75px;
+        height: 61px;
+
+        .item4__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 13px;
+            padding-left: 20px;
+        }
+
+        .item4__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+}
+
+.main__card4 {
+    position: relative;
+    background-image: url(../../img-main/matras.png), url(../../img-main/red-cost.png);
+    background-repeat: no-repeat;
+    background-position: top 122px left 40px, top 327px left 604px;
+    width: 1280px;
+    height: 456px;
+    background-color: #F6FBFF;
+    margin-top: 20px;
+    margin-left: 320px;
+
+    .card__word {
+        display: flex;
+        padding: 10px 10px;
+        gap: 10px;
+        position: absolute;
+        width: 170px;
+        height: 36px;
+        left: 30px;
+        top: 20px;
+        background: #FF6B6B;
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .card__word2 {
+        position: absolute;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        background-color: rgb(63, 235, 78);
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        gap: 10px;
+        width: 130px;
+        height: 36px;
+        top: 20px;
+        left: 244px;
+
+    }
+
+    .card__btn {
+        width: 200px;
+        height: 46px;
+        border-radius: 5px;
+        border: 2px solid #01384D;
+        margin-left: 604px;
+        margin-top: 393px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+}
+
+.card__title {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 604px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #01384D;
+}
+
+.card__cost4 {
+
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #01384D;
+    margin-left: 734px;
+    margin-top: 320px;
+
+    font-size: 16px;
+    line-height: 19px;
+    color: #01384D;
+
+}
+
+
+.card__narx {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #01384D;
+    opacity: 0.6;
+    margin-top: 294px;
+    margin-left: 604px;
+}
+
+.card__text {
+    position: absolute;
+    left: 47.19%;
+    right: 3.12%;
+    top: 41.89%;
+    bottom: 41.01%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #01384D;
+    opacity: 0.6;
+}
+
+.card__list {
+
+
+
+    .card__item {
+        position: absolute;
+        left: 47.19%;
+        right: 47.03%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 74px;
+        height: 62px;
+
+        .item__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 50px;
+
+        }
+
+        .item__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item2 {
+        position: absolute;
+        left: 58.83%;
+        right: 37.11%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 52px;
+        height: 61px;
+
+        .item2__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        .item2__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item3 {
+        position: absolute;
+        left: 69.14%;
+        right: 17.42%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 172px;
+        height: 61px;
+
+        .item3__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+
+
+        .item3__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item4 {
+        position: absolute;
+        left: 88.83%;
+        right: 5.31%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 75px;
+        height: 61px;
+
+        .item4__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 13px;
+            padding-left: 20px;
+        }
+
+        .item4__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+}
+
+span {
+    font-weight: 700;
+}
+
+.main__aksiya {
+    position: absolute;
+    width: 563px;
+    height: 50px;
+    left: 679px;
+    padding-top: 100px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #01384D;
+}
+
+.main__card5 {
+    position: relative;
+    background-image: url(../../img-main/matras.png), url(../../img-main/red-cost.png);
+    background-repeat: no-repeat;
+    background-position: top 122px left 40px, top 327px left 604px;
+    width: 1280px;
+    height: 456px;
+    background-color: #F6FBFF;
+    margin-top: 200px;
+    margin-left: 320px;
+
+    .card__word {
+        display: flex;
+        justify-content: center;
+        padding: 10px 10px;
+        gap: 10px;
+        position: absolute;
+        width: 130px;
+        height: 36px;
+        left: 30px;
+        top: 20px;
+        background: rgb(63, 235, 78);
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+    }
+
+
+
+    .card__btn {
+        width: 200px;
+        height: 46px;
+        border-radius: 5px;
+        border: 2px solid #01384D;
+        margin-left: 604px;
+        margin-top: 393px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+}
+
+.card__title {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 604px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #01384D;
+}
+
+.card__cost4 {
+
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #01384D;
+    margin-left: 734px;
+    margin-top: 320px;
+
+    font-size: 16px;
+    line-height: 19px;
+    color: #01384D;
+
+}
+
+
+.card__narx {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #01384D;
+    opacity: 0.6;
+    margin-top: 294px;
+    margin-left: 604px;
+}
+
+.card__text {
+    position: absolute;
+    left: 47.19%;
+    right: 3.12%;
+    top: 41.89%;
+    bottom: 41.01%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #01384D;
+    opacity: 0.6;
+}
+
+.card__list {
+
+
+
+    .card__item {
+        position: absolute;
+        left: 47.19%;
+        right: 47.03%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 74px;
+        height: 62px;
+
+        .item__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 50px;
+
+        }
+
+        .item__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item2 {
+        position: absolute;
+        left: 58.83%;
+        right: 37.11%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 52px;
+        height: 61px;
+
+        .item2__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        .item2__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item3 {
+        position: absolute;
+        left: 69.14%;
+        right: 17.42%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 172px;
+        height: 61px;
+
+        .item3__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+
+
+        .item3__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item4 {
+        position: absolute;
+        left: 88.83%;
+        right: 5.31%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 75px;
+        height: 61px;
+
+        .item4__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 13px;
+            padding-left: 20px;
+        }
+
+        .item4__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+}
+
+span {
+    font-weight: 700;
+}
+
+.main__card6 {
+    position: relative;
+    background-image: url(../../img-main/red-matras.png), url(../../img-main/red-cost.png);
+    background-repeat: no-repeat;
+    background-position: top 122px left 40px, top 327px left 604px;
+    width: 1280px;
+    height: 456px;
+    background-color: #F6FBFF;
+    margin-top: 20px;
+    margin-left: 320px;
+
+    .card__word {
+        display: flex;
+        justify-content: center;
+        padding: 10px 10px;
+        gap: 10px;
+        position: absolute;
+        width: 130px;
+        height: 36px;
+        left: 30px;
+        top: 20px;
+        background: rgb(63, 235, 78);
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .card__btn {
+        width: 200px;
+        height: 46px;
+        border-radius: 5px;
+        border: 2px solid #01384D;
+        margin-left: 604px;
+        margin-top: 393px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+}
+
+.card__title {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 604px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #01384D;
+}
+
+.card__cost4 {
+
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #01384D;
+    margin-left: 734px;
+    margin-top: 320px;
+
+
+
+}
+
+
+.card__narx {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #01384D;
+    opacity: 0.6;
+    margin-top: 294px;
+    margin-left: 604px;
+}
+
+.card__text {
+    position: absolute;
+    left: 47.19%;
+    right: 3.12%;
+    top: 41.89%;
+    bottom: 41.01%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #01384D;
+    opacity: 0.6;
+}
+
+.card__list {
+
+
+
+    .card__item {
+        position: absolute;
+        left: 47.19%;
+        right: 47.03%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 74px;
+        height: 62px;
+
+        .item__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 50px;
+
+        }
+
+        .item__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item2 {
+        position: absolute;
+        left: 58.83%;
+        right: 37.11%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 52px;
+        height: 61px;
+
+        .item2__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        .item2__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item3 {
+        position: absolute;
+        left: 69.14%;
+        right: 17.42%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 172px;
+        height: 61px;
+
+        ruby-span: {}
+
+        .item3__number-span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 5px;
+        }
+
+
+        .item3__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+
+
+        .item3__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+
+    .card__item4-6 {
+        position: absolute;
+        left: 80.83%;
+        right: 5.31%;
+        top: 24.12%;
+        bottom: 62.5%;
+        width: 75px;
+        height: 61px;
+
+        .item4__number {
+            position: absolute;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35.22px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 18.78px;
+            position: absolute;
+            padding-top: 13px;
+            padding-left: 20px;
+        }
+
+        .item4__word {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+    }
+}
+
+span {
+    font-weight: 700;
+}
+
+.product {
+    margin-left: 320px;
+    width: 1281px;
+    height: 640px;
+    margin-top: 130px;
+    position: relative;
+
+
+    .product__title {
+        position: absolute;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 59px;
+        padding-left: 267px;
+        color: #01384D;
+
+    }
+
+    .product__list {
+
+        padding-top: 127px;
+        display: flex;
+
+        font-style: normal;
+
+        .product__item1 {
+            position: absolute;
+            font-weight: 600;
+            font-size: 30px;
+            text-align: center;
+            line-height: 35px;
+            color: #01384D;
+            padding-left: 115px;
+        }
+
+        .product__item2 {
+            position: absolute;
+            font-weight: 600;
+            font-size: 30px;
+            text-align: center;
+            line-height: 35px;
+            color: #01384D;
+            padding-left: 553px;
+        }
+
+        .product__item3 {
+            display: flex;
+            font-weight: 600;
+            font-size: 30px;
+            text-align: center;
+            line-height: 35px;
+            color: #01384D;
+            padding-left: 964px;
+
+        }
+    }
+}
+
+.product__imgs {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 40px;
+
+    .product__img1 {
+        position: absolute;
+        width: 407px;
+        height: 300px;
+    }
+
+    .product__img2 {
+        position: absolute;
+        width: 407px;
+        height: 300px;
+        padding-left: 437px;
+    }
+}
+
+.product__img3 {
+    position: absolute;
+    padding-left: 874px;
+    width: 407px;
+    height: 300px;
+}
+
+.product__text {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 335px;
+}
+
+.product__words1 {
+    width: 367px;
+    height: 104px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+
+    text-align: center;
+    color: #01384D;
+}
+
+.product__words2 {
+    width: 367px;
+    height: 104px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+
+    text-align: center;
+    color: #01384D;
+}
+
+.product__words3 {
+    width: 367px;
+    height: 104px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 20px;
+    text-align: center;
+    color: #01384D;
+}
+
+.product__img-inner {
+
+    display: flex;
+    padding-top: 120px;
+    position: absolute;
+}
+
+.img__inner1 {
+    padding-left: 173px;
+}
+
+.img__inner2 {
+    padding-left: 370px;
+}
+
+.img__inner3 {
+    padding-left: 390px;
+}
+
+.choose {
+    position: absolute;
+    width: 1280px;
+    height: 605px;
+    margin-top: 30px;
+    margin-left: 320px;
+   
+
+    h2 {
+        position: absolute;
+        padding-left: 382px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 59px;
+        text-align: center;
+        color: #01384D;
+    }
+
+    .card1 {
+        position: absolute;
+        width: 407px;
+        height: 485px;
+        margin-top: 122px;
+        background: #FFFFFF;
+        border: 2px solid #01384D;
+        border-radius: 5px;
+
+        .card1__word {
+            position: absolute;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            padding-left: 116px;
+            color: #01384D;
+            padding-top: 60px;
+
+        }
+
+        .card1__text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #01384D;
+            padding-top: 114px;
+        }
+    }
+    .card2 {
+        position: absolute;
+        width: 407px;
+        height: 485px;
+        margin-top: 122px;
+        margin-left: 439px;
+        background: #FFFFFF;
+        border: 2px solid #01384D;
+        border-radius: 5px;
+
+        .card2__word {
+            position: absolute;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            padding-left: 94px;
+            color: #01384D;
+            padding-top: 60px;
+
+        }
+
+        .card2__text {
+          
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #01384D;
+            padding-top: 114px;
+        }
+        a{
+        position: absolute;
+            padding-top: 25px;
+           padding-left: 127px;
+           color: #01384D;
+           font-size: 700;
+           font-size: 18px;
+        }
+    }
+    .card3 {
+        position: absolute;
+        width: 407px;
+        height: 485px;
+        margin-top: 122px;
+        background: #FFFFFF;
+        border: 2px solid #01384D;
+        border-radius: 5px;
+        margin-left: 880px;
+
+        .card3__word {
+            position: absolute;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            padding-left: 116px;
+            color: #01384D;
+            padding-top: 60px;
+            padding-left: 162px;
+
+        }
+
+        .card3__text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #01384D;
+            padding-top: 114px;
+        }
+    }
+}

@@ -1,99 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.min.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.min.css">
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <ul class="navbar">
-                <li class="navbar__logo"><img src="./img/logo.png" alt=""></li>
-                <a href="#boshsahifa"><li id="navbar__items" class="navbar__item">Bosh sahifa</li></a>
-                <a href="#xizmatlar"><li class="navbar__item">Xizmatlar</li></a>
-                <a href="#portfolio"><li class="navbar__item">Portfolio</li></a>
-                <a href="#xizmatlar"><li class="navbar__item">Jamoa</li></a>
-                <a href="#boshsahifa"><li class="navbar__item">Blog</li></a>
-                <a href="#kontaktlar"><li class="navbar__item">Kontaktlar</li></a>
-                <a href="tel: +998905433465"><li class="navbar__link">+998905433465</li></a>
-            </ul>
-        </div>
-    </header>
-    <section class="main" id="bosh_sahifa">
-        <div class="box1">
-            <h2 class="box1__title">
-                Biznesingizni keyingi bosqichga
-                olib chiqing
-            </h2>
-            <p class="box1__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
-            <button class="box1__btn">Xizmatlar bilan tanishish</button>
-        </div>
-        <div class="box2">
-            <img src="./img/youtube.png" alt="" class="box2__img">
-        </div>
-    </section>
-    <section class="xizmatlar">
-        <h3 class="xizmatlar__title" id="xizmatlar">Xizmatlar</h3>
-        <p class="xizmatlar__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
-        <div class="cards">
-            <img src="./img/service (1).png" alt="">
-            <img src="./img/service (2).png" alt="">
-            <img src="./img/service (3).png" alt="">
-            <img src="./img/service (4).png" alt="">
-            <img src="./img/service.png" alt="">
-        </div>
-        <button class="cards__btn">Buyurtma berish</button>
-        <a href="#" class="cards__link">Buyurtmalar sahifasiga o'tish</a>
-    </section>
-    <section class="working">
-        <h3 class="working__title" id="portfolio">Biz qanday ishlaymiz</h3>
-        <p class="working__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
-        <img src="./img/how-we-work-list.svg" alt="" class="all__cards">
-        <button class="working__btn">Buyurtma berish</button>
-    </section>
-    <section class="buyurtma">
-        <h3 class="buyurtma__title">Buyurtma berish</h3>
-        <p class="buyurtma__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
-        <div class="buyurtma__inputs" id="kontaktlar">
-            <input type="text" class="buyurtma__inputs-input" placeholder="Ismingiz">
-            <input type="number" class="buyurtma__inputs-input" placeholder="Telefon raqamingiz">
-            <select name="xizmatlar"  >
-                <option value="" >Xizmatlar</option>
-                <option value="">Telegram bot</option>
-                <option value="">Web site</option>
-                <option value="">SMM</option>
-            </select>            
-            <button class="xizmatlar__btn">Buyurtma berish</button>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="copy">
-            <h3>Copyright 2020</h3>
-            <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.</p>
-        </div>
-        <div class="navs">
-            <h3>Sayt sahifalari</h3>
-            <ul class="navs__list">
-                <a href="#boshsahifa"><li class="navs__list-item">Bosh sahifa</li></a>
-                <a href="#xizmatlar"><li class="navs__list-item">Xizmatlar</li></a>
-                <a href="#portfolio"><li class="navs__list-item">Portfolio</li></a>
-                <a href="#xizmatlar"><li class="navs__list-item">Jamoa</li></a>
-                <a href="#boshsahifa"><li class="navs__list-item">Blog</li></a>
-                <a href="#kontaktlar"><li class="navs__list-item">Kontaktlar</li></a>
-            </ul>
-        </div>
-        <div class="boglanish">
-            <h3>Biz internetda</h3><br>
-            <a href="">Telegram</a><br>
-            <a href="">Facebook</a><br>
-            <a href="">Instagram</a><br>
-        </div>
-    </footer>
+  <section id="header">
+    <div class="little__nav">
+      <ul class="little__nav-list">
+        <li class="little__nav-item">Katalog</li>
+        <li class="little__nav-item">Aksiya</li>
+        <li class="little__nav-item">Biz haqimizda</li>
+        <li class="little__nav-item">Manzilimiz</li>
+        <li class="little__nav-item">Aloqa</li>
+      </ul>
+    </div>
+    <nav class="nav">
+      <a href="#"><img class="nav__logo" src="./img-header/logo.png" alt=""></a>
+      <ul class="nav__list">
+        <a href="#"><img class="nav__tell" src="./img-header/Call.png" alt=""> </a>
+        <li class="nav__item1"> +998 90 123 45 67</li>
+        <li class="nav__item2">Buyurtma berish</li>
+      </ul>
+    </nav>
+    <div class="container header__inner">
+      <h1 class="header__title">Kechalari sokin <br> dam oling</h1>
+      <p class="header__text"><img src="./img-header/kategory.png" alt=""></p>
+    </div>
+  </section>
+  <section id="main">
+    <ul class="main__title">
+      <li class="title__list1">7 <br>
+        <p>Yillik tajriba</p>
+      </li>
+      <li class="title__list2">10k+ <br>
+        <p>mamnun mijozlar</p>
+      </li>
+      <li class="title__list3">10 <br>
+        <p>yillik kafolat</p>
+      </li>
+      <li class="title__list4">3 <br>
+        <p>kunda yetkazib berish</p>
+      </li>
+    </ul>
+    <h2 class="main__text">Bizning mahsulotlar</h2>
+    <ul class="little__list">
+      <li class="little__item1">Barchasi</li>
+      <li class="little__item">Model A+</li>
+      <li class="little__item">Model B+</li>
+      <li class="little__item">Model C</li>
+      <li class="little__item">Model C+</li>
+      <li class="little__item">Model D</li>
+      <li class="little__item">Model Yevro</li>
+      <li class="little__item">Yangi tovarlar</li>
+      <li class="little__item">Model A</li>
+    </ul>
+    <div class="line"></div>
+    <div class="line-inner"></div>
+    <div class="main__card">
+      <p class="card__word">YANGI MAHSULOT</p>
+      <h2 class="card__title">Ortopedik Eko matras</h2>
+      <ul class="card__list">
+        <li class="card__item">
+          <p class="item__word">Yuklama</p> <br>
+          <p class="item__number">150</p><span>kg</span>
+        </li>
+        <li class="card__item2">
+          <p class="item2__word">Kafolat</p> <br>
+          <p class="item2__number">3</p> <span>yil</span>
+        </li>
+        <li class="card__item3">
+          <p class="item3__word">O’lchami</p> <br>
+          <p class="item3__number">200x120x40</p>
+        </li>
+        <li class="card__item4">
+          <p class="item4__word">Sig'mi</p> <br>
+          <p class="item4__number">2</p> <span>kishilik</span>
+        </li>
+      </ul>
+      <p class="card__text">Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant <br>
+        adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus <br> facilisi ac dictum
+        varius egestas.</p>
+      <p class="card__narx">Narxi</p>
+      <h3 class="card__cost">1 699 999 <span>so'm</span></h3>
+      <button class="card__btn">Buyurtma berish <span> <img src="./img-main/arava.png" alt=""></span></button>
+    </div>
+    <div class="main__card2">
+      <p class="card__word">YANGI MAHSULOT</p>
+      <h2 class="card__title">Ortopedik Eko matras</h2>
+      <ul class="card__list">
+        <li class="card__item">
+          <p class="item__word">Yuklama</p> <br>
+          <p class="item__number">150</p><span>kg</span>
+        </li>
+        <li class="card__item2">
+          <p class="item2__word">Kafolat</p> <br>
+          <p class="item2__number">3</p> <span>yil</span>
+        </li>
+        <li class="card__item3">
+          <p class="item3__word">O’lchami</p> <br>
+          <p class="item3__number">200x120x40</p>
+        </li>
+        <li class="card__item4">
+          <p class="item4__word">Sig'mi</p> <br>
+          <p class="item4__number">2</p> <span>kishilik</span>
+        </li>
+      </ul>
+      <p class="card__text">Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant <br>
+        adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus <br> facilisi ac dictum
+        varius egestas.</p>
+      <p class="card__narx">Narxi</p>
+      <h3 class="card__cost">1 699 999 <span>so'm</span></h3>
+      <button class="card__btn">Buyurtma berish <span> <img src="./img-main/arava.png" alt=""></span></button>
+    </div>
+    <div class="main__card3">
+      <p class="card__word">YANGI MAHSULOT</p>
+      <h2 class="card__title">Ortopedik Eko matras</h2>
+      <ul class="card__list">
+        <li class="card__item">
+          <p class="item__word">Yuklama</p> <br>
+          <p class="item__number">150</p><span>kg</span>
+        </li>
+        <li class="card__item2">
+          <p class="item2__word">Kafolat</p> <br>
+          <p class="item2__number">3</p> <span>yil</span>
+        </li>
+        <li class="card__item3">
+          <p class="item3__word">O’lchami</p> <br>
+          <p class="item3__number">200x120x40</p>
+        </li>
+        <li class="card__item4">
+          <p class="item4__word">Sig'mi</p> <br>
+          <p class="item4__number">2</p> <span>kishilik</span>
+        </li>
+      </ul>
+      <p class="card__text">Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant <br>
+        adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus <br> facilisi ac dictum
+        varius egestas.</p>
+      <p class="card__narx">Narxi</p>
+      <h3 class="card__cost">1 699 999 <span>so'm</span></h3>
+      <button class="card__btn">Buyurtma berish <span> <img src="./img-main/arava.png" alt=""></span></button>
+    </div>
+    <div class="main__card4">
+      <p class="card__word">YANGI MAHSULOT</p> <span class="card__word2">
+        <p>Aksiya</p>
+      </span>
+      <h2 class="card__title">Ortopedik Eko matras</h2>
+      <ul class="card__list">
+        <li class="card__item">
+          <p class="item__word">Yuklama</p> <br>
+          <p class="item__number">150</p><span>kg</span>
+        </li>
+        <li class="card__item2">
+          <p class="item2__word">Kafolat</p> <br>
+          <p class="item2__number">3</p> <span>yil</span>
+        </li>
+        <li class="card__item3">
+          <p class="item3__word">O’lchami</p> <br>
+          <p class="item3__number">200x120x40</p>
+        </li>
+        <li class="card__item4">
+          <p class="item4__word">Sig'mi</p> <br>
+          <p class="item4__number">2</p> <span>kishilik</span>
+        </li>
+      </ul>
+      <p class="card__text">Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant <br>
+        adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus <br> facilisi ac dictum
+        varius egestas.</p>
+      <p class="card__narx">Narxi</p>
+      <h3 class="card__cost4"> 1 299 999 <span>so'm</span></h3>
+      <button class="card__btn">Buyurtma berish <span> <img src="./img-main/arava.png" alt=""></span></button>
 
+    </div>
+    <h2 class="main__aksiya">Aksiyadagi mahsulotlar</h2>
+    <div class="main__card5">
+      <p class="card__word">Aksiya</p>
+      <h2 class="card__title">Ortopedik Eko matras</h2>
+      <ul class="card__list">
+        <li class="card__item">
+          <p class="item__word">Yuklama</p> <br>
+          <p class="item__number">150</p><span>kg</span>
+        </li>
+        <li class="card__item2">
+          <p class="item2__word">Kafolat</p> <br>
+          <p class="item2__number">3</p> <span>yil</span>
+        </li>
+        <li class="card__item3">
+          <p class="item3__word">O’lchami</p> <br>
+          <p class="item3__number">200x120x40</p>
+        </li>
+        <li class="card__item4">
+          <p class="item4__word">Sig'mi</p> <br>
+          <p class="item4__number">2</p> <span>kishilik</span>
+        </li>
+      </ul>
+      <p class="card__text">Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant <br>
+        adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus <br> facilisi ac dictum
+        varius egestas.</p>
+      <p class="card__narx">Narxi</p>
+      <h3 class="card__cost4"> 1 299 999 <span>so'm</span></h3>
+      <button class="card__btn">Xarid qilish<span> <img src="./img-main/arava.png" alt=""></span></button>
 
-    <script src="./js/script.js"></script>
+    </div>
+    <div class="main__card6">
+      <p class="card__word">Aksiya</p>
+      <h2 class="card__title">OLux Soft Memory</h2>
+      <ul class="card__list">
+        <li class="card__item">
+          <p class="item__word">Yuklama</p> <br>
+          <p class="item__number">120</p><span>kg</span>
+        </li>
+        <li class="card__item2">
+          <p class="item2__word">Kafolat</p> <br>
+          <p class="item2__number">3</p> <span>yil</span>
+        </li>
+        <li class="card__item3">
+          <p class="item3__word">Balandligi</p> <br>
+          <p class="item3__number">38 <span class="item3__number-span">sm</span></p>
+        </li>
+        <li class="card__item4-6">
+          <p class="item4__word">Sig'mi</p> <br>
+          <p class="item4__number">3</p> <span>kishilik</span>
+        </li>
+      </ul>
+      <p class="card__text">Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant <br>
+        adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus <br> facilisi ac dictum
+        varius egestas.</p>
+      <p class="card__narx">Narxi</p>
+      <h3 class="card__cost4"> 1 299 999 <span>so'm</span></h3>
+      <button class="card__btn">Xarid qilish<span> <img src="./img-main/arava.png" alt=""></span></button>
+
+    </div>
+    <div class="product">
+      <h2 class="product__title">Ishlab chiqarish texnologiyalari</h2>
+      <ul class="product__list">
+        <li class="product__item1">Memoriform</li>
+        <li class="product__item2">Tabiiy lateks</li>
+        <li class="product__item3">Mustaqil prujina</li>
+      </ul>
+      <ul class="product__imgs">
+        <li class="product__img1"><img src="./img-others/first.png" alt=""></li>
+        <li class="product__img2"><img src="./img-others/second.png" alt=""></li>
+        <li class="product__img3"><img src="./img-others/third.png" alt=""></li>
+      </ul>
+      <ul class="product__img-inner">
+        <li class="img__inner1"><img src="./inner-img/Group 3616 (7).png" alt=""></li>
+        <li class="img__inner2"><img src="./inner-img/Group 3616 (7).png" alt=""></li>
+        <li class="img__inner3"><img src="./inner-img/Group 3616 (7).png" alt=""></li>
+      </ul>
+      <ul class="product__text">
+        <li class="product__words1">Lectus pellentesque senectus elit donec <br> massa ipsum ultricies dui. Bibendum et
+          enim <br> fringilla tincidunt ligula non, condimentum <br> nunc.</li>
+        <li class="product__words2">Aliquam euismod ornare justo, sed faucibus <br> eu. Sed amet tellus netus quis
+          bibendum. <br> Euismod diam eu sem tristique aenean <br> rhoncus.</li>
+        <li class="product__words3">Enim urna consequat, justo, cras tincidunt <br> imperdiet orci sodales. Dui purus
+          feugiat <br> morbi quam orci, vel. Elementum tincidunt <br> blandit ultricies venenatis rhoncus.</li>
+      </ul>
+
+    </div>
+    <div class="choose">
+      <h2 class="choose_title">Nega bizni tanlashadi</h2>
+      <div class="card1">
+        <img src="./img-others/car.png" alt="">
+        <p class="card1__word">Yetkazib berish</p>
+        <p class="card1__text">Toshkent bo'ylab bepul o'lchov <br> va etkazib berish</p>
+      </div>
+      <div class="card2">
+        <img src="./img-others/man.png" alt="">
+        <p class="card2__word">Qo'llab-quvvatlash</p>
+        <p class="card2__text">Bizning qo'llab-quvvatlash xizmati sizga <br> har qanday savolda yordam beradi va <br>
+          menejerlarning </p>
+        <a href="#">+998 97 144-24-42</a>
+      </div>
+      <div class="card3">
+        <img src="./img-others/shake.png" alt="">
+        <p class="card3__word">Kafolat</p>
+        <p class="card3__text">Biz matraslarimiz uchun 8 yilgacha <br> kafolat beramiz. Agar matras kamida 25<br> mm
+          qisqartirilsa.</p>
+      </div>
+    </div>
+  </section>
+  <section id="last">
+
+    <h2 class="last__title">Sizni qiziqtirdimi?</h2>
+    <p class="last__text">Raqamingizni qoldiring, biz sizga yana qo'ng'iroq qilamiz</p>
+    <input type="number"  placeholder="+998 | Raqamingizni yozing">
+<button class="last__button">Yuborish</button>
+  </section>
+  <section id="footer">
+    <div class="footer__inner">
+      <ul class="footer__list">
+        <li class="list__item1">Biz haqimizda</li>
+        <li class="list__item2">Katalog</li>
+        <li class="list__item3">Aksiya</li>
+        <li class="list__item4">Manzilimiz</li>
+      </ul>
+      <ul class="footer__imgs">
+        <img class="footer__img1" src="./img-others/Facebook.png" alt="">
+        <img class="footer__img2" src="./img-others/Twitter.png" alt="">
+        <img class="footer__img3" src="./img-others/Vimeo.png" alt="">
+        <img class="footer__img4" src="./img-others/Youtube.png" alt="">
+      </ul>
+      <img class="inner__img" src="./inner-img/Vector 1.png" alt="">
+      <img class="footer__arrow" src="./img-others/arrow-up.png" alt="">
+      <p class="footer__text">© 2021 Dream Cloud. Barcha huquqlar himoyalangan.</p>
+      <img class="footer__logo" src="./img-others/vizitka (1).png" alt="">
+    </div>
+  </section>
 </body>
+
 </html>
